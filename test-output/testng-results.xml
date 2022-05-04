@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-03T07:25:54Z" name="Default suite" finished-at="2022-05-03T07:26:36Z" duration-ms="41704">
+    <groups>
+    </groups>
+    <test started-at="2022-05-03T07:25:54Z" name="Default test" finished-at="2022-05-03T07:26:36Z" duration-ms="41704">
+      <class name="org.test.AdactinMainclass">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.test.AdactinMainclass@68e5eea7]" started-at="2022-05-03T07:25:54Z" name="beforeClass" finished-at="2022-05-03T07:26:06Z" duration-ms="12203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="loginPage()[pri:0, instance:org.test.AdactinMainclass@68e5eea7]" started-at="2022-05-03T07:26:07Z" name="loginPage" description="Login" finished-at="2022-05-03T07:26:18Z" duration-ms="11697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method signature="searchHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.test.AdactinMainclass@68e5eea7]" started-at="2022-05-03T07:26:25Z" name="searchHotel" description="SearchHotel" data-provider="SampleData" finished-at="2022-05-03T07:26:29Z" duration-ms="4217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Sunshine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Double]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20/05/2022]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30/05/2022]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotel -->
+        <test-method signature="serchHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.test.AdactinMainclass@68e5eea7]" started-at="2022-05-03T07:26:32Z" name="serchHotel" description="Search Hotel and Book A Hotel" data-provider="Book Data" finished-at="2022-05-03T07:26:36Z" duration-ms="4092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Esra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ozan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[London RK15 E5R]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[45678976543245678]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[July]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2022]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[986]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serchHotel -->
+      </class> <!-- org.test.AdactinMainclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
